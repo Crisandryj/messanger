@@ -24,6 +24,7 @@ const messageChannel = consumer.subscriptions.create("MessageChannel", {
             </div>
           </article>`
 }
+
 });
 
 document.addEventListener("turbo:load", () => {
