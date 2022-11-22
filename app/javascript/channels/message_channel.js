@@ -26,7 +26,7 @@ const messageChannel = consumer.subscriptions.create("MessageChannel", {
 }
 
 });
-
+/*listen for event*/
 document.addEventListener("turbo:load", () => {
   let form = document.querySelector('#message-form')
   if(form) {
